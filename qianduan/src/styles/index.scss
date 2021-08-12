@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 12px;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+a,ul,ol{
+  text-decoration: none;
+  list-style: none;
+}
+
+a,
+a:focus,
+a:hover {
+cursor: pointer;
+color: inherit;
+text-decoration: none;
+}
+
+#app{
+  height: 100%;
+}
+.el-table thead, .el-table__empty-text{
+  font-size: 12px;
+}
+.el-upload--picture-card{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}

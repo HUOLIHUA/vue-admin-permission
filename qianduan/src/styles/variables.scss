@@ -1,0 +1,31 @@
+$--font-size-base: 12px;
+$--them-color: #d7503a;
+$--border-color: #d7503a;
+/* Font
+-------------------------- */
+$--font-path: 'fonts';
+$--font-size-base: $--font-size-base ;
+$--font-size-small: 13px ;
+$--font-size-large: 18px ;
+$--font-color-disabled-base: #bbb ;
+$--font-weight-primary: 500 ;
+$--font-line-height-primary: 24px ;
+
+/* Size
+-------------------------- */
+$--size-base: $--font-size-base ;
+
+/* Input
+-------------------------- */
+$--input-height: 36px ;
+
+/* Button
+-------------------------- */
+$--button-padding-vertical: 11px;
+$--button-warning-border: $--them-color ;
+$--button-warning-color: $--border-color ;
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
